@@ -13,3 +13,5 @@
 ![](https://github.com/nadya002/Networks_hse/blob/main/lab1/pics/IMAGE%202022-12-08%2016:37:34.jpg)
 
 Тоже работает
+
+Конфиги можно посмотреть в папке config

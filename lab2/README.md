@@ -1,6 +1,7 @@
 # Поиск минимального MSU
 
-запускать с помощью докера. Пример запуска:
+Запускать с помощью докера. Пример запуска:
+Сначала выполняем команду: docker build . -t dock_mtu
 ```bash
 $ docker build . -t dock_mtu
 Sending build context to Docker daemon  2.155MB
@@ -41,3 +42,9 @@ Step 12/12 : ENTRYPOINT ["/bin/server"]
 Successfully built c2cdd0d23ead
 Successfully tagged dock_mtu:latest
 ```
+
+```bash
+$ docker run dock_mtu --host google.com
+MSU is 96
+```
+

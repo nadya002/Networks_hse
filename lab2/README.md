@@ -51,6 +51,9 @@ Successfully tagged dock_mtu:latest
 $ docker run dock_mtu --host google.com
 MSU is 96
 ```
+
+Так же можно запустить такой командой: go run prog.go --host ya.ru
+
 Хост по дефолту стоит ya.ru.
 
 # Решение

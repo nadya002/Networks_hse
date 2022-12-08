@@ -1,6 +1,6 @@
 ## Топология сети
 
-![](https://github.com/nadya002/Networks_hse/blob/main/lab1/IMAGE%202022-12-08%2015:11:31.jpg)
+![](https://github.com/nadya002/Networks_hse/blob/main/lab1/pics/IMAGE%202022-12-08%2016:37:40.jpg)
 
 1. Отправим пинги от первого пользователя второму
 

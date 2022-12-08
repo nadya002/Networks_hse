@@ -45,9 +45,14 @@ Step 12/12 : ENTRYPOINT ["/bin/server"]
 Successfully built c2cdd0d23ead
 Successfully tagged dock_mtu:latest
 ```
+Затем команду: run dock_mtu --host HOST
 
 ```bash
 $ docker run dock_mtu --host google.com
 MSU is 96
 ```
+Хост по дефолту стоит ya.ru.
+
+# Решение
+Сначала бин. подъемами ищем верхнюю границу для нашего MTU (пингуем начиная с размера пакета равного единицы, пока пинг не начнет выдавать ошибку). Далее бинарным поиском ищем самый большой размер пакета на котором пинг не возвращает ошибки.
 

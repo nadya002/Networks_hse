@@ -10,6 +10,6 @@
 
 2. Отправим пинги от второго пользователя первому
 
-![](https://github.com/nadya002/Networks_hse/blob/main/lab1/IMAGE%202022-12-08%2016:04:36.jpg)
+![](https://github.com/nadya002/Networks_hse/blob/main/lab1/pics/IMAGE%202022-12-08%2016:37:34.jpg)
 
 Тоже работает

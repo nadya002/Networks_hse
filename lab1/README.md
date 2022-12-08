@@ -4,7 +4,7 @@
 
 1. Отправим пинги от первого пользователя второму
 
-![](https://github.com/nadya002/Networks_hse/blob/main/lab1/IMAGE%202022-12-08%2016:04:31.jpg)
+![](https://github.com/nadya002/Networks_hse/blob/main/lab1/pics/IMAGE%202022-12-08%2016:37:23.jpg)
 
 Все работает
 

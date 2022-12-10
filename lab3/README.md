@@ -1,3 +1,4 @@
 ## Топология сети
 
-![](pics/topol.png)
+<img src="pics/topol.png" width="50%" height="50%">
+

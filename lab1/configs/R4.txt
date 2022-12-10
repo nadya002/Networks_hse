@@ -48,7 +48,7 @@ vlan 10,20
 !
 !
 interface Ethernet0/0
- switchport access vlan 10
+ switchport access vlan 20
  switchport mode access
 !
 interface Ethernet0/1

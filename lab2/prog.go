@@ -24,19 +24,21 @@ func main() {
 	flag.Parse()
 	host := *hostPtr
 
-	R := 1
+	
 
-	if try_ping(host, R) == 1 {
+	if try_ping(host, 0) == 1 {
 		fmt.Println("Wrong host - ", host)
 		return
 	}
 
 	//Find upper border
+	
+	R := 1
 	for try_ping(host, R) == 0 {
 		R = R * 2
 	}
 
-	L := 1
+	L := 0
 	for R > L+1 {
 		m := (R + L) / 2
 		if try_ping(host, m) == 1 {
